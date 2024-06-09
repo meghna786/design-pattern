@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./singleton.js"></script>
+  </head>
+  <body>
+    <div id="design-pattern" class="design-pattern"></div>
+  </body>
+
+  <script>
+    let singletonObj = new Client();
+    singletonObj.main();
+    let el = document.getElementById("design-pattern");
+    el.innerHTML=singletonObj;
+  </script>
+</html>
